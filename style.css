@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 10%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.frase {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.timer div {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 80px;
+}
+
+.timer span {
+  font-size: 2em;
+  font-weight: bold;
+  display: block;
+}
+
+.data {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
